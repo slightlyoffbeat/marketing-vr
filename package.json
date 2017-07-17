@@ -1,0 +1,23 @@
+{
+  "name": "tlni-vr",
+  "description": "TL&I. Now in 3D",
+  "version": "0.3.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "budo js/walls.js --live --verbose --port 3000 --open",
+    "deploy": "ghpages",
+    "ghpages": "ghpages"
+  },
+  "devDependencies": {
+    "budo": "^7.0.0",
+    "ghpages": "0.0.10"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-example",
+    "aframe-boilerplate",
+    "aframe-scene",
+    "webvr",
+    "vr"
+  ]
+}
