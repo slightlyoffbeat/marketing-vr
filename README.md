@@ -1,6 +1,6 @@
-#Marketing Presentation in VR Demo
+# Marketing Presentation in VR Demo
 
-This is a simple demonstration of how easy it is to build virtual reality presentations using A-Frame. 
+This is a simple demonstration of how easy it is to build virtual reality presentations using A-Frame.
 
 ### Installation
 
