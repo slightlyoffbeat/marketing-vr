@@ -5,12 +5,18 @@
   "license": "MIT",
   "scripts": {
     "start": "budo js/walls.js --live --verbose --port 3000 --open",
-    "deploy": "ghpages",
-    "ghpages": "ghpages"
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md package.json package-lock.json"
   },
   "devDependencies": {
     "budo": "^7.0.0",
-    "ghpages": "0.0.10"
+    "gh-pages-deploy": "^0.4.2"
+  },
+  "gh-pages-deploy": {
+    "post": [
+      "clean-source"
+    ],
+    "noprompt": false
   },
   "keywords": [
     "aframe",
